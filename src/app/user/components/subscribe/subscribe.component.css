@@ -1,0 +1,75 @@
+.m3th{
+  padding: 2% 2%;
+  border-bottom: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
+
+}
+
+.m37h{
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pehance p{
+  font-size: 30px;
+  font-weight: bold;
+}
+.fo-d_m{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fo-d_m form{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.fo-d_m{
+  margin-top: 30px;
+}
+.sub-3m{
+  width: 50%;
+}
+
+.mf390{
+  border: none;
+  width: 100%;
+}
+.sub-3m{
+  border: 1px solid #ec994c;
+  padding: 5px;
+}
+
+.jm4fu{
+  border: none;
+  background: #ec994c;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  padding: 0 16px;
+  font-weight: 600;
+  transition: 0.2s;
+  border: 1px solid #ec994c;
+
+}
+
+.jm4fu{
+  cursor: pointer;
+}
+
+.jm4fu:hover{
+  background: #fff;
+  color: #ec994c;
+  border: 1px solid #ec994c;
+}
+
+.mf390{
+  outline: none;
+}

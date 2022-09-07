@@ -1,0 +1,21 @@
+<nav class="f32">
+  <div class="top">
+    <div class="bd28">
+
+      <ul class="nav-sides">
+
+        <li class="f3-d" *ngFor="let item of sidebar">
+          <a href="admin/{{item.url}}" class="f0o">
+            <fa-icon [icon]="item.icon"></fa-icon>
+            <span class="nf24">{{item.name}}</span>
+          </a>
+          <!--<div>DropDown</div>-->
+
+        </li>
+
+
+      </ul>
+
+    </div>
+  </div>
+</nav>

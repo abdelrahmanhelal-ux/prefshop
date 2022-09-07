@@ -1,0 +1,17 @@
+<div ngClass='m8b3y'>
+  <div ngClass="al3l">
+    <div ngClass="f37">
+      <a [routerLink]="['/']" routerLinkActive="router-link-active" ngClass='f3j8hn'>
+        <fa-icon [icon]='list'></fa-icon> All Categories
+      </a>
+    </div>
+
+    <div ngClass="f37" *ngFor="let cate of category">
+      <a [routerLink]="['/']" routerLinkActive="router-link-active">{{cate.names}}</a>
+    </div>
+
+
+
+
+  </div>
+</div>

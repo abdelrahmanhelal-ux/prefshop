@@ -1,0 +1,104 @@
+.dis-nav{
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+.m38nd{
+  padding: 1% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.md8vb{
+  width: 50%;
+  border: 1px solid #f3f3f3;
+  background: #fff;
+}
+
+.fo-c{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  padding: 15px;
+}
+
+.to-text p{
+  font-size: 20px;
+  font-weight: bold;
+  display: grid;
+  justify-content: center;
+  padding: 8px 0;
+}
+
+.to-text{
+  border-bottom: 1px solid #f3f3f3;
+  width: 100%;
+}
+
+.fo-c form{
+  width: 100%;
+}
+
+.inp-3{
+  padding: 15px 0;
+
+}
+.inp-33{
+  border: 1px solid #f3f3f3;
+}
+
+.inp-33 input{
+  border: none;
+  padding: 7px;
+  width: 100%;
+
+}
+
+input{
+  outline: none;
+}
+
+.inp-33 input[type=button]{
+  background: #ec994c;
+  color: #fff;
+  border: 1px solid #ec994c;
+  transition: 0.3s;
+
+}
+.inp-33 input[type=button]:hover{
+  background: #fff;
+  color: #ec994c;
+}
+
+.inp-33 input[type=submit]{
+  background: #ec994c;
+  color: #fff;
+  border: 1px solid #ec994c;
+  transition: 0.3s;
+
+}
+.inp-33 input[type=submit]:hover{
+  background: #fff;
+  color: #ec994c;
+}
+
+.d3f2i0{
+  cursor: pointer;
+}
+.div-adslide{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  width: 900px;
+}
+
+.m38nd{
+  width: 900px;
+}

@@ -1,0 +1,63 @@
+.x02m{
+  font-weight: bold;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.nz7h3{
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+
+.a02k{
+  padding: 0 5px;
+  width: 160px;
+}
+
+.m2un{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-top: 8px;
+}
+
+.m2un a:hover{
+  color: #ec994c;
+}
+
+.ms94{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ms94 a:hover{
+  color: #ec994c;
+  text-decoration: underline;
+}
+
+.ms94 a{
+  text-decoration: underline;
+}
+
+
+.x02m p{
+  padding: 5px 0px;
+}
+
+.nme-pro{
+  clear: both;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+}
+.m84b{
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 25px;
+ }
+
+ a{
+  color: #333;
+ }

@@ -1,0 +1,77 @@
+.f32{
+  width: 250px;
+  height: 100%;
+}
+
+.feo{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+.fome a
+{
+  display: flex;
+}
+
+.fome{
+  padding: 10px;
+}
+
+.nav-sides li{
+  border-bottom: 1px solid #ddd;
+}
+
+.bd28{
+  padding: 10px 0;
+}
+
+.top{
+  border-right: 1px solid #ddd;
+  box-shadow: 1px 3px 5px #d3d3d3;
+}
+
+.f3-d a{
+  padding: 0 10px;
+}
+
+.f0o .nf24{
+  margin: 0 10px;
+
+}
+
+
+.f0o{
+  color: #202020;
+  font-size: 17px;
+  display: block;
+}
+
+.f0o :hover{
+  color: #ec911c;
+}
+.f3-d{
+  padding: 15px 0;
+
+}
+
+.dis-nav{
+  height: 100%;
+}
+
+.top{
+  background: #fff;
+  height: 100%;
+}
+
+
+.f3-d{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+
+}
+.f0o{
+  width: 100%;
+}

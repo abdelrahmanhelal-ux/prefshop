@@ -1,0 +1,61 @@
+<header _ngcontent-c1 class='header'>
+  <div class="top-header">
+
+    <div class="MG4-2">
+      <div class="kg034 w-100">
+        <select class="w-100">
+              <option *ngFor="let i of lang" value='{{i.cur}}'>{{i.cur}}</option>
+
+        </select>
+      </div>
+      <div class="feo h100">
+        <p class="w-100">WELCOME TO <span>ROMA</span> !</p>
+      </div>
+
+      <div class="hd281 h100" *ngIf="loginBtn">
+        <a [routerLink]="['/login']" routerLinkActive="router-link-active" class='h100' >Sign in</a>
+        <p class='j9f31-09 h100'>|</p>
+        <a [routerLink]="['/signup']" routerLinkActive="router-link-active" class='h100'>Register</a>
+      </div>
+
+      <div class="hd281 h100" *ngIf="logoutBtn" >
+        <a [routerLink]="['/']" routerLinkActive="router-link-active" class='h100' (click)="logout()" >Log out</a>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="cent-header">
+    <div class="f3f3g">
+      <div class="lo30f">
+        <a [routerLink]="['/']" routerLinkActive="router-link-active" >ROMA</a>
+      </div>
+      <div class="x832n">
+        <form action="/" method="post">
+          <input type='search' class='g4g4' placeholder='Search...'/>
+          <button class='f4g4'><fa-icon [icon]='search' ></fa-icon></button>
+        </form>
+      </div>
+      <div class="sh2id">
+        <a [routerLink]="['/vodoexu@gmail.com']" routerLinkActive="router-link-active"><fa-icon [icon]='envelope' ></fa-icon> info@roma.com</a>
+      </div>
+    </div>
+
+  </div>
+  <div class="bottom-header">
+    <div class="d2m8">
+      <div class="ca0to3n">
+        <a [routerLink]="['']" routerLinkActive="router-link-active" >HOME</a>
+        <a [routerLink]="['/shop']" routerLinkActive="router-link-active"  >SHOP</a>
+        <a [routerLink]="['/about']" routerLinkActive="router-link-active"  >ABOUT US</a>
+        <a [routerLink]="['/conract']" routerLinkActive="router-link-active"  >CONTACT</a>
+      </div>
+      <div class="ca30f">
+        <a [routerLink]="['/cart']" routerLinkActive="router-link-active"  ><fa-icon [icon]='truk' ></fa-icon>CART (0)</a>
+      </div>
+    </div>
+
+  </div>
+
+
+</header>

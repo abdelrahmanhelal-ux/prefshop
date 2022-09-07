@@ -1,0 +1,59 @@
+.fo-2 {
+  padding: 3% 2%;
+  position: relative;
+}
+
+.m98hss {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+}
+
+.m387n {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.m7n {
+  border-right: 1px solid #ccd0d9;
+  height: 70px;
+
+}
+
+.dro {
+  font-size: 30px;
+  color: #ec994c;
+}
+
+.tex-3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.decst span {
+  color: #ec994c;
+}
+
+.none{
+  display: none;
+}
+
+.def{
+  border-bottom: 1px solid #ccd0d9;
+  border-top: 1px solid #ccd0d9;
+}
+
+.fo-cent{
+  align-items: center;
+  display: grid;
+  justify-content: center;
+}
+
+.k3d0-9{
+  display: contents;
+}
